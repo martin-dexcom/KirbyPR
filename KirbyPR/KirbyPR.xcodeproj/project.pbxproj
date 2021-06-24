@@ -19,6 +19,10 @@
 		9418B04F2684FBA800A1414D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418B0202684FBA700A1414D /* Persistence.swift */; };
 		9418B0502684FBA800A1414D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9418B0212684FBA800A1414D /* Assets.xcassets */; };
 		9418B0512684FBA800A1414D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9418B0212684FBA800A1414D /* Assets.xcassets */; };
+		9418B0652685050F00A1414D /* MainAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418B0642685050F00A1414D /* MainAppView.swift */; };
+		9418B0662685050F00A1414D /* MainAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418B0642685050F00A1414D /* MainAppView.swift */; };
+		9418B068268505C300A1414D /* GithubPRElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418B067268505C300A1414D /* GithubPRElement.swift */; };
+		9418B069268505C300A1414D /* GithubPRElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9418B067268505C300A1414D /* GithubPRElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,8 @@
 		9418B0412684FBA800A1414D /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9418B0452684FBA800A1414D /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		9418B0472684FBA800A1414D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9418B0642685050F00A1414D /* MainAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppView.swift; sourceTree = "<group>"; };
+		9418B067268505C300A1414D /* GithubPRElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubPRElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +186,8 @@
 			isa = PBXGroup;
 			children = (
 				9418B01F2684FBA700A1414D /* ContentView.swift */,
+				9418B0642685050F00A1414D /* MainAppView.swift */,
+				9418B067268505C300A1414D /* GithubPRElement.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -349,7 +357,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9418B0482684FBA800A1414D /* KirbyPR.xcdatamodeld in Sources */,
+				9418B0652685050F00A1414D /* MainAppView.swift in Sources */,
 				9418B04E2684FBA800A1414D /* Persistence.swift in Sources */,
+				9418B068268505C300A1414D /* GithubPRElement.swift in Sources */,
 				9418B04A2684FBA800A1414D /* KirbyPRApp.swift in Sources */,
 				9418B04C2684FBA800A1414D /* ContentView.swift in Sources */,
 			);
@@ -360,7 +370,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9418B0492684FBA800A1414D /* KirbyPR.xcdatamodeld in Sources */,
+				9418B0662685050F00A1414D /* MainAppView.swift in Sources */,
 				9418B04F2684FBA800A1414D /* Persistence.swift in Sources */,
+				9418B069268505C300A1414D /* GithubPRElement.swift in Sources */,
 				9418B04B2684FBA800A1414D /* KirbyPRApp.swift in Sources */,
 				9418B04D2684FBA800A1414D /* ContentView.swift in Sources */,
 			);
