@@ -104,11 +104,12 @@
 		9418B01B2684FBA700A1414D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				9418B0632684FD6E00A1414D /* Extensions */,
+				9418B0622684FD6900A1414D /* Views */,
+				9418B0612684FD6400A1414D /* ViewModels */,
+				9418B0602684FD5F00A1414D /* Models */,
 				9418B01E2684FBA700A1414D /* KirbyPRApp.swift */,
-				9418B01F2684FBA700A1414D /* ContentView.swift */,
-				9418B0202684FBA700A1414D /* Persistence.swift */,
 				9418B0212684FBA800A1414D /* Assets.xcassets */,
-				9418B01C2684FBA700A1414D /* KirbyPR.xcdatamodeld */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -157,6 +158,37 @@
 				9418B0472684FBA800A1414D /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		9418B0602684FD5F00A1414D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9418B01C2684FBA700A1414D /* KirbyPR.xcdatamodeld */,
+				9418B0202684FBA700A1414D /* Persistence.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9418B0612684FD6400A1414D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9418B0622684FD6900A1414D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9418B01F2684FBA700A1414D /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9418B0632684FD6E00A1414D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
